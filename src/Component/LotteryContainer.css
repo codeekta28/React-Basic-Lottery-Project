@@ -1,0 +1,23 @@
+/* if you want to define height in percentage than give its parent a fixed height in vh */
+.LotteryContainer{
+    height: 40vh;
+}
+.LotteryContainer button{
+    border: 2px solid rgb(43, 1, 1);
+    padding: 10px 35px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(179, 39, 15);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: all .2s ease-in-out;
+}
+.LotteryContainer button:hover{
+cursor: pointer;
+background-color:rgb(126, 3, 3) ;
+transform: translateY(-0.2em);
+
+}

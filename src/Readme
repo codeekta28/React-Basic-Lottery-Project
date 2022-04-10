@@ -1,0 +1,3 @@
+Things to Learn 
+Always use button where there is your state
+To create the array of desired length Array.from(Array(10)) will create array of size 10

@@ -1,0 +1,20 @@
+/* if you want to define height in percentage than give its parent a fixed height in vh */
+.LotteryBalls{
+   
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LotteryBalls-ball{
+    border: 2px solid rgb(245, 44, 9);
+    margin: 5px;
+    padding: 17px;
+    background-color: tomato;
+    border-radius: 50%;
+    color: white;
+    font-size: 19px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
